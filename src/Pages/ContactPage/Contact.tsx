@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHome, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import Footer from "../../Components/Shared/Footer";
 
 const Contact: React.FC = () => {
   return (
