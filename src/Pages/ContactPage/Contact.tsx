@@ -89,6 +89,7 @@ const Contact: React.FC = () => {
           </form>
         </section>
       </main>
+      <Footer />
     </>
   );
 };
