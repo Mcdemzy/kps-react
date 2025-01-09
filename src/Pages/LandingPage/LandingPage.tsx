@@ -1,7 +1,13 @@
+// import Footer from "../../Components/Shared/Footer";
+import EntranceSection from "./components/EntranceSection";
+
 const LandingPage = () => {
   return (
     <>
-      <main>Kasmoz Private School</main>
+      <main>
+        <EntranceSection />
+        {/* <Footer /> */}
+      </main>
     </>
   );
 };

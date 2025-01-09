@@ -1,0 +1,64 @@
+/* EntranceSection Animations and Styles */
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Entrance Section Container */
+.entrance-section {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Fade-In Animation Class */
+.fade-in {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/* CTA Button Hover Effect */
+.cta-button a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button a:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .text-center h1 {
+    font-size: 1.5rem;
+  }
+
+  .image-container img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .button-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-center h1 {
+    font-size: 1.2rem;
+  }
+
+  .cta-button a {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
