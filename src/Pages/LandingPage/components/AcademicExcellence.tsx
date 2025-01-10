@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGraduationCap, FaLightbulb, FaSchool } from "react-icons/fa";
 
 const AcademicExcellence = () => {
