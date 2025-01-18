@@ -1,5 +1,7 @@
 import Footer from "../../Components/Shared/Footer";
+// import Gallery from "../../Components/Shared/Gallery";
 import AcademicExcellence from "./components/AcademicExcellence";
+import BlogAndAnnouncements from "./components/BlogAndAnnouncements";
 import CeoSection from "./components/CeoSection";
 import CounterSection from "./components/CounterSection";
 import EntranceSection from "./components/EntranceSection";
@@ -14,6 +16,8 @@ const LandingPage = () => {
         <EntranceSection />
         <SetApartSection />
         <CounterSection />
+        <BlogAndAnnouncements />
+        {/* <Gallery /> */}
         <Footer />
       </main>
     </>
