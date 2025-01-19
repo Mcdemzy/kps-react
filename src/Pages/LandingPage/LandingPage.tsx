@@ -1,4 +1,5 @@
 import Footer from "../../Components/Shared/Footer";
+import Navbar from "../../Components/Shared/Navbar";
 // import Gallery from "../../Components/Shared/Gallery";
 import AcademicExcellence from "./components/AcademicExcellence";
 import BlogAndAnnouncements from "./components/BlogAndAnnouncements";
@@ -11,6 +12,8 @@ const LandingPage = () => {
   return (
     <>
       <main>
+        <Navbar />
+
         <CeoSection />
         <AcademicExcellence />
         <EntranceSection />
